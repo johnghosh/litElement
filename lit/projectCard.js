@@ -23,7 +23,7 @@ class ProjectCard extends LitElement{
     render(){
         return html`
             <div class="card">
-                <img src="${this.img}" width="100px" height="100px"/>
+                <img src="${this.img}" width="200px" height="200px"/>
             
                 <div class="container">
                     <h3> <b> ${this.name} </b> </h3>
