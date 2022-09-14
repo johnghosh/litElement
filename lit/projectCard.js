@@ -23,7 +23,7 @@ class ProjectCard extends LitElement{
     render(){
         return html`
             <div class="card">
-                <img src="${this.img}" width=300px>
+                <img src="${this.img}" width="100px" height="100px"/>
             
                 <div class="container">
                     <h3> <b> ${this.name} </b> </h3>
@@ -37,7 +37,7 @@ class ProjectCard extends LitElement{
         super();
         this.name = "Project Name";
         this.url = "https://google.com";
-        this.img = "https://img.icons8.com/cotton/2x/folder-invoices.png"
+        this.img = ""
     }
     
     static get properties(){
